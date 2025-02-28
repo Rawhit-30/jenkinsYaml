@@ -1,0 +1,9 @@
+jenkins:
+  systemMessage: "Welcome to Jenkins configured by code!"
+  numExecutors: 5
+  scmCheckoutRetryCount: 3
+  nodeProperties:
+    - toolLocations:
+        - type: JDK
+          name: "JDK 11"
+          home: "/usr/lib/jvm/java-11-openjdk"
